@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create axios instance with default config
 const api = axios.create({
-  baseURL: 'http://localhost:5001/api',
+  baseURL: 'https://good-sale-pos-backend.onrender.com/api',
   withCredentials: true,
   headers: {
     'Content-Type': 'application/json',
